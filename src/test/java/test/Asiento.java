@@ -7,7 +7,15 @@ public class Asiento {
 	
 	void cambiarColor(String color)
 	{
-		if(color =="rojo" || color == "verde" || color == "amarillo" || color == "negro" || color == "blanco")
+		if(color =="rojo")
+			this.color = color;		
+		else if (color == "verde")
+			this.color = color;	
+		else if (color == "amarillo")
+			this.color = color;	
+		else if (color == "negro")
+			this.color = color;	
+		else if (color == "blanco")
 			this.color = color;
 	}
 }
